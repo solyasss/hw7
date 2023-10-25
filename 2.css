@@ -1,0 +1,20 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .gallery li {
+    width: 130px;
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+  }
+  .gallery img {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    border: 1px solid black;
+  }
+ 
